@@ -1,0 +1,595 @@
+Script started on 2022-09-30 13:31:33+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="203" LINES="48"]
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ end
+[?2004lOrden «end» no encontrada. Quizá quiso decir:
+  la orden «gnd» del paquete snap «gnd (master)»
+  la orden «ent» del paquete deb «ent (1.2debian-3)»
+  la orden «eid» del paquete deb «id-utils (4.6.28-20200521ss15dab)»
+  la orden «env» del paquete deb «coreutils (8.32-4.1ubuntu1)»
+  la orden «nd» del paquete deb «nd (0.8.2-8build1)»
+  la orden «bnd» del paquete deb «bnd (5.0.1-3)»
+  la orden «and» del paquete deb «and (1.2.2-4.2)»
+  la orden «snd» del paquete deb «snd-gui-jack (22.1-1)»
+  la orden «snd» del paquete deb «snd-gui-pulse (22.1-1)»
+  la orden «snd» del paquete deb «snd-nox (22.1-1)»
+  la orden «send» del paquete deb «mailutils-mh (1:3.14-1)»
+  la orden «send» del paquete deb «mmh (0.4-4)»
+  la orden «send» del paquete deb «nmh (1.7.1-11)»
+  la orden «ed» del paquete deb «ed (1.18-1)»
+  la orden «emd» del paquete deb «emd (1.0.1-2)»
+Consulte «snap info <nombre del snap>» para ver más versiones.
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ va[K[Kfatal
+[?2004lfatal: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ typescript [K-[Kpract[K[K[K[K[K[Kt-pract2
+[?2004ltypescript-pract2: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ gir[Kt confi
+[?2004lgit: 'confi' no es un comando de git. Mira 'git --help'.
+
+El comando más similar es
+	config
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ “[K[7mgit config --global user.name "Nombre Apellido1 [Apellido2]"[27m
+[7m$ git config --global user.email "alumno@um.es"[27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.name "Nombre Apellido1 [Apellido2]"
+$ git config --global user.email "alumno@um.es"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004luso: git config [<opciones>]
+
+Ubicación del archivo de configuración
+    --global              usar archivo de config global
+    --system              usar archivo de config del sistema
+    --local               usar archivo de config del repositorio
+    --worktree            usar archivo de config del árbol de trabajo
+    -f, --file <archivo>  usar archivo de config especificado
+    --blob <blob-id>      leer config del objeto blob suministrado
+
+Acción
+    --get                 obtener valor: nombre [patrón de valor]
+    --get-all             obtener todos los valores: clave [patrón de valor]
+    --get-regexp          obtener valores para regexp: name-regex [value-pattern]
+    --get-urlmatch        obtener valor específico para el URL: sección[.var] URL
+    --replace-all         reemplazar todas las variables coincidentes: nombre valor [valor-patrón]
+    --add                 agregar nueva variable: nombre valor
+    --unset               eliminar una variable: nombre [patrón de valor]
+    --unset-all           eliminar todas las coincidencias: nombre [patrón de valor]
+    --rename-section      renombrar sección: nombre-viejo nombre-nuevo
+    --remove-section      borrar una sección: nombre
+    -l, --list            listar todo
+    --fixed-value         usar la igualdad de cadenas al comparar valores con 'patrón de valor'
+    -e, --edit            abrir el editor
+    --get-color           encontrar el color configurado: slot [default]
+    --get-colorbool       encontrar las opciones del color: slot [stdout-es-tty]
+
+Tipo
+    -t, --type <>         al valor se ha dado este tipo
+    --bool                valor es "true" o "false"
+    --int                 valor es un número decimal
+    --bool-or-int         valor es --bool o --int
+    --bool-or-str         el valor es --bool o cadena
+    --path                valor es una ruta (archivo o nombre de directorio)
+    --expiry-date         valor es una fecha de caducidad
+
+Otro
+    -z, --null            terminar valores con un byte NULL
+    --name-only           mostrar solo nombres de variables
+    --includes            respetar directivas include en la búsqueda
+    --show-origin         mostrar el origen de configuración (archivo, stdin, blob, línea de comandos)
+    --show-scope          mostrar el scope de la configuración (worktree, local, global, system, command)
+    --default <valor>     con --get, usar el valor por defecto cuando falta una entrada
+
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ --global
+[?2004l--global: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ^V[K^[[200~git config --global user.name "Nombre Apellido1 [Apellido2]~[K[K[K[1P[1P[1P[1P[2P[C[1P[1@S[1@i[1@l[1@v[1@i[1@a[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P [Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P[Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P[Apellidos [Apellido[1P [Apellido[C [ApellidoS [Apellidoi [Apellidol [Apellidov [Apellidoi [Apellidoa [Apellido[C [ApellidoA [Apellidol [ApellidoS [Apellido¡ [ApellidoA [ApellidoC [ApellidoI [ApellidoD [Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P [Apellido[1P [Apellidoa [Apellidoc [Apellidoi [Apellidod [Apellido[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K []B]r]a]o][C
+[?2004luso: git config [<opciones>]
+
+Ubicación del archivo de configuración
+    --global              usar archivo de config global
+    --system              usar archivo de config del sistema
+    --local               usar archivo de config del repositorio
+    --worktree            usar archivo de config del árbol de trabajo
+    -f, --file <archivo>  usar archivo de config especificado
+    --blob <blob-id>      leer config del objeto blob suministrado
+
+Acción
+    --get                 obtener valor: nombre [patrón de valor]
+    --get-all             obtener todos los valores: clave [patrón de valor]
+    --get-regexp          obtener valores para regexp: name-regex [value-pattern]
+    --get-urlmatch        obtener valor específico para el URL: sección[.var] URL
+    --replace-all         reemplazar todas las variables coincidentes: nombre valor [valor-patrón]
+    --add                 agregar nueva variable: nombre valor
+    --unset               eliminar una variable: nombre [patrón de valor]
+    --unset-all           eliminar todas las coincidencias: nombre [patrón de valor]
+    --rename-section      renombrar sección: nombre-viejo nombre-nuevo
+    --remove-section      borrar una sección: nombre
+    -l, --list            listar todo
+    --fixed-value         usar la igualdad de cadenas al comparar valores con 'patrón de valor'
+    -e, --edit            abrir el editor
+    --get-color           encontrar el color configurado: slot [default]
+    --get-colorbool       encontrar las opciones del color: slot [stdout-es-tty]
+
+Tipo
+    -t, --type <>         al valor se ha dado este tipo
+    --bool                valor es "true" o "false"
+    --int                 valor es un número decimal
+    --bool-or-int         valor es --bool o --int
+    --bool-or-str         el valor es --bool o cadena
+    --path                valor es una ruta (archivo o nombre de directorio)
+    --expiry-date         valor es una fecha de caducidad
+
+Otro
+    -z, --null            terminar valores con un byte NULL
+    --name-only           mostrar solo nombres de variables
+    --includes            respetar directivas include en la búsqueda
+    --show-origin         mostrar el origen de configuración (archivo, stdin, blob, línea de comandos)
+    --show-scope          mostrar el scope de la configuración (worktree, local, global, system, command)
+    --default <valor>     con --get, usar el valor por defecto cuando falta una entrada
+
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mgit config --global user.name "Nombre Apellido1 [Apellido2][27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.name "Nombre Apellido1 [Apellido2][K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KSilvia Aalcid[K[K[K[K[Klacid
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ us[K[Kgit config --global user.name Silvia Alacid[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kuser.email silvia.alacid@u[Kedu.upct.es
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ user[K[Ker.name
+[?2004luser.name: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ user.namegit config --global user.email silvia.alacid@edu.upct.es[13Pname Silvia Alacid [Brao][K"[1@"
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ usewr[K[Krr[K,[K.name
+[?2004luser.name: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ user.namegit config --global user.name "Silvia Alacid"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuser.name[Kgit config --global user.name "Silvia Alacid"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuser.name[Kgit config --global user.email silvia.alacid@edu.upct.es"[C"silvia.alacid@edu.upct.es"
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ig[K[Kgit cong[Kfig --global list [K-list-list
+[?2004l[?1h=user.name=Silvia Alacid[m
+user.email=silvia.alacid@edu.upct.es[m
+[K[?1l>[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mHOME/.gitconfig[27mHOME/.gitconfig
+[?2004lbash: HOME/.gitconfig: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mcat $HOME/.gitconfig[27mcat $HOME/.gitconfig
+[?2004l[user]
+	name = Silvia Alacid
+	email = silvia.alacid@edu.upct.es
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ gir[Kt clone [7mhttps://github.com/Silvia-upct-es/fc-alumno.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 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
+Password for 'https://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@github.com': 
+remote: Write access to repository not granted.
+fatal: no es posible acceder a 'https://github.com/Silvia-upct-es/fc-alumno.git/': The requested URL returned error: 403
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[37Pcat $HOME/.gitconfig[5PHOME/.gitconfiggit config --global --listuser.email "silvia.alacid@edu.upct.es"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuser.name[Kgit config --global user.name "Silvia Alacid"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuser.name[Kgit config --global user.email silvia.alacid@edu.upct.es[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuser.name[Kgit config --global user.name "Silvia Alacid"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuser.name[Kgit config --global user.email "silvia.alacid@edu.upct.es"--list[K[11PHOME/.gitconfigcat $HOME/.gitconfiggit clone https://github.com/Silvia-upct-es/fc-alumno.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[Kgit clone https://github.com/Silvia-upct-es/fc-alumno.git[K
+[?2004lClonando en 'fc-alumno.gi'...
+Username for 'https://github.com': 
+Password for 'https://github.com': 
+remote: Repository not found.
+fatal: Autenticación falló para 'https://github.com/Silvia-upct-es/fc-alumno.gi/'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ nano .pat
+[?2004l[?2004h[?1049h[22;0;0t[1;48r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[46;95H(B[0;7m[ Leyendo... ](B[m[46;94H(B[0;7m[ 1 línea leída ](B[m[H(B[0;7m  GNU nano 6.2                                                                                        .pat                                                                                                 [1;202H(B[m[47d(B[0;7m^G(B[m Ayuda[47;17H(B[0;7m^O(B[m Guardar[33G(B[0;7m^W(B[m Buscar[49G(B[0;7m^K(B[m Cortar[65G(B[0;7m^T(B[m Ejecutar     (B[0;7m^C(B[m Ubicación    (B[0;7mM-U(B[m Deshacer    (B[0;7mM-A(B[m Poner marca (B[0;7mM-](B[m A llave     (B[0;7mM-Q(B[m Anterior    (B[0;7m^B(B[m Atrás[47;177H(B[0;7m^◂(B[m Palabr ant[48d(B[0;7m^X(B[m Salir[48;17H(B[0;7m^R(B[m Leer fich.   (B[0;7m^\(B[m Reemplazar   (B[0;7m^U(B[m Pegar[48;65H(B[0;7m^J(B[m Justificar   (B[0;7m^/(B[m Ir a línea   (B[0;7mM-E(B[m Rehacer     (B[0;7mM-6(B[m Copiar[129G(B[0;7m^Q(B[m Buscar atrás (B[0;7mM-W(B[m Siguiente   (B[0;7m^F(B[m Adelante     (B[0;7m^▸(B[m Palabra Siguiente[2d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[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hg[?25l[?12l[?25hh[?25l[?12l[?25hp[?25l[?12l[?25h_[?25l[?12l[?25hK[?25l[?12l[?25hh[?25l[?12l[?25h3[?25l[?12l[?25h4[?25l[?12l[?25hj[?25l[?12l[?25hj[?25l[?12l[?25h7[?25l[?12l[?25hr[?25l[?12l[?25hJ[?25l[?12l[?25hA[?25l[?12l[?25h2[?25l[46d[K[?12l[?25h[2;17H[?25l[?12l[?25hC[?25l[?12l[?25hC[?25l[?12l[?25hg[?25l[?12l[?25hs[?25l[?12l[?25hQ[?25l[?12l[?25hv[?25l[?12l[?25hX[?25l[?12l[?25h8[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25h6[?25l[?12l[?25hL[?25l[?12l[?25hv[?25l[?12l[?25hB[?25l[?12l[?25hC[?25l[?12l[?25hO[?25l[?12l[?25hb[?25l[?12l[?25h1[?25l[?12l[?25hc[?25l[?12l[?25hd[?25l[?12l[?25h4[?25l[?12l[?25h8[?25l[?12l[?25hJ[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[2;41H[?25l[1;108H(B[0;7m*[202G(B[m[?12l[?25h[2;40H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l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[?12l[?25h[?25l[47;17H          [33G         [49G  (B[0;7mM-D(B[m Formato DOS[35X[47;101H(B[0;7mM-A(B[m Añadir[40X[47;151H(B[0;7mM-B(B[m Respaldar fichero[K[48;2H(B[0;7mC(B[m Cancelar[39X[48;51H(B[0;7mM-M(B[m Formato Mac[35X[48;101H(B[0;7mM-P(B[m Anteponer         [129G[22X[48;151H(B[0;7m^T(B[m Navegar[K[46d(B[0;7mNombre del archivo a escribir: .pat                                                                                                                                                                        [46;36H(B[m[?12l[?25h[?25l[46;92H[1K (B[0;7m[ Escribiendo... ](B[m[K[1;108H(B[0;7m [202G(B[m[46;95H(B[0;7m1 línea escrita ](B[m[47;17H(B[0;7m^O(B[m Guardar[33G(B[0;7m^W(B[m Buscar[49G(B[0;7m^K(B[m Cortar       (B[0;7m^T(B[m Ejecutar     (B[0;7m^C(B[m Ubicación    (B[0;7mM-U(B[m Deshacer    (B[0;7mM-A(B[m Poner marca (B[0;7mM-](B[m A llave     (B[0;7mM-Q(B[m Anterior    (B[0;7m^B(B[m Atrás        (B[0;7m^◂(B[m Palabr ant[48;2H(B[0;7mX(B[m Salir        (B[0;7m^R(B[m Leer fich.   (B[0;7m^\(B[m Reemplazar   (B[0;7m^U(B[m Pegar        (B[0;7m^J(B[m Justificar   (B[0;7m^/(B[m Ir a línea   (B[0;7mM-E(B[m Rehacer     (B[0;7mM-6(B[m Copiar[129G(B[0;7m^Q(B[m Buscar atrás (B[0;7mM-W(B[m Siguiente   (B[0;7m^F(B[m Adelante     (B[0;7m^▸(B[m Palabra Siguiente[?12l[?25h[2;41H[?25l[46d[J[48d[?12l[?25h[48;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone[K[K[K[K[K[K[K[K[Knano .patgit clone https://github.com/Silvia-upct-es/fc-alumno.gi
+[?2004lClonando en 'fc-alumno.gi'...
+Username for 'https://github.com': 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
+Password for 'https://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@github.com': 
+remote: Repository not found.
+fatal: repositorio 'https://github.com/Silvia-upct-es/fc-alumno.gi/' no encontrado
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.gi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano .pat[Kgit clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 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
+Password for 'https://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@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Autenticación falló para 'https://github.com/Silvia-upct-es/fc-alumno.git/'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano .pat[Kgit clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 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
+Password for 'https://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@github.com': 
+remote: Write access to repository not granted.
+fatal: no es posible acceder a 'https://github.com/Silvia-upct-es/fc-alumno.git/': The requested URL returned error: 403
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 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
+Password for 'https://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@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Autenticación falló para 'https://github.com/Silvia-upct-es/fc-alumno.git/'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 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
+Password for 'https://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@github.com': 
+remote: Write access to repository not granted.
+fatal: no es posible acceder a 'https://github.com/Silvia-upct-es/fc-alumno.git/': The requested URL returned error: 403
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 
+Password for 'https://github.com': 
+remote: Repository not found.
+fatal: Autenticación falló para 'https://github.com/Silvia-upct-es/fc-alumno.git/'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git colne[K[K[K[Klone
+[?2004lfatal: Tienes que especificar un repositorio para clonar.
+
+uso: git clone [<opciones>] [--] <repo> [<directorio>]
+
+    -v, --verbose         ser más verboso
+    -q, --quiet           ser más callado
+    --progress            forzar el reporte de progreso
+    --reject-shallow      no clonar repositorios superficiales
+    -n, --no-checkout     no crear checkout
+    --bare                crear un repositorio vacío
+    --mirror              crear un repositorio espejo (implica bare)
+    -l, --local           clonar de un repositorio local
+    --no-hardlinks        no usar hardlinks, siempre copiar
+    -s, --shared          configurar como repositorio compartido
+    --recurse-submodules[=<pathspec>]
+                          inicializar submódulos en el clon
+    --recursive ...       alias de --recurse-submodules
+    -j, --jobs <n>        número de submódulos clonados en paralelo
+    --template <directorio-template>
+                          directorio del cual los templates serán usados
+    --reference <repo>    repositorio de referencia
+    --reference-if-able <repo>
+                          repositorio de referencia
+    --dissociate          usar --reference solamente si estás clonando
+    -o, --origin <nombre>
+                          usar <nombre> en lugar de 'origin' para rastrear upstream
+    -b, --branch <rama>   checkout <rama> en lugar de HEAD remota
+    -u, --upload-pack <ruta>
+                          ruta para git-upload-pack en el remoto
+    --depth <profundidad>
+                          crear un clon superficial de esa profundidad
+    --shallow-since <tiempo>
+                          crear un clon superficial desde el tiempo específico
+    --shallow-exclude <revisión>
+                          ahondar historia de clon superficial, excluyendo rev
+    --single-branch       clonar solo una rama, HEAD o --branch
+    --no-tags             no clonar ningún tag, y hacer que los subsiguientes fetch no los sigan
+    --shallow-submodules  cualquier submódulo clonado será superficial
+    --separate-git-dir <gitdir>
+                          separar git dir del árbol de trabajo
+    -c, --config <clave=valor>
+                          configurar config dentro del nuevo repositorio
+    --server-option <específico-al-servidor>
+                          opción para trasmitir
+    -4, --ipv4            solo usar direcciones IPv4
+    -6, --ipv6            solo usar direcciones IPv6
+    --filter <args>       filtrado de objeto
+    --remote-submodules   cualquier submódulo clonado usará su branch de rastreo remoto
+    --sparse              inicializar archivo sparse-checkout para incluir solo archivos en la raíz
+
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone[K[K[K[K[K[K[K[K[Kgit clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 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
+Password for 'https://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@github.com': 
+remote: Write access to repository not granted.
+fatal: no es posible acceder a 'https://github.com/Silvia-upct-es/fc-alumno.git/': The requested URL returned error: 403
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': Silvia-upct-es
+Password for 'https://Silvia-upct-es@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Autenticación falló para 'https://github.com/Silvia-upct-es/fc-alumno.git/'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': Silvia-upct-es
+Password for 'https://Silvia-upct-es@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Autenticación falló para 'https://github.com/Silvia-upct-es/fc-alumno.git/'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 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
+Password for 'https://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@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Autenticación falló para 'https://github.com/Silvia-upct-es/fc-alumno.git/'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone [7m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[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C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
+[?2004lfatal: repositorio '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' no existe
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone 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[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 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                                        ^^?^C
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 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
+Password for 'https://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@github.com': 
+remote: Write access to repository not granted.
+fatal: no es posible acceder a 'https://github.com/Silvia-upct-es/fc-alumno.git/': The requested URL returned error: 403
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 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
+Password for 'https://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@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Autenticación falló para 'https://github.com/Silvia-upct-es/fc-alumno.git/'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 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
+Password for 'https://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@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Autenticación falló para 'https://github.com/Silvia-upct-es/fc-alumno.git/'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [K]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [K]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [K]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [K]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [K]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [K]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [K]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': [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]
+Password for 'https://[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]@github.com': 
+remote: Invalid username or password.
+fatal: Autenticación falló para 'https://github.com/Silvia-upct-es/fc-alumno.git/'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [K]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [K]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': https://teams.microsoft.com/l/team/19%3a2DklOkae5SoDSCvVZv03hwfrY4Yo22dhUr6YGBZFnlk1%40thread.tacv2/conversations?groupId=7d23915c-baeb-4478-b0a9-bf06c7ca4dde&tenantId=2da4be34-08bf-4f17-a810-09766961b7f2                                                                                
+Password for 'https://https://teams.microsoft.com/l/team/19%3a2DklOkae5SoDSCvVZv03hwfrY4Yo22dhUr6YGBZFnlk1%40thread.tacv2/conversations?groupId=7d@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Autenticación falló para 'https://github.com/Silvia-upct-es/fc-alumno.git/'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/Silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': ^^?^^?    ^^?  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
+Password for 'https://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@github.com': 
+remote: Write access to repository not granted.
+fatal: no es posible acceder a 'https://github.com/Silvia-upct-es/fc-alumno.git/': The requested URL returned error: 403
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone [7mhttps://github.com/silvia-upct-es/fc-alumno.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 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  ^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D                                                                ^[[D     H^[[D     H
+Password for 'https://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@github.com': 
+remote: Write access to repository not granted.
+fatal: no es posible acceder a 'https://github.com/silvia-upct-es/fc-alumno.git/': The requested URL returned error: 403
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone https://github.com/silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+
+
+
+
+Username for 'https://github.com': Password for 'https://github.com': 
+remote: Repository not found.
+fatal: Autenticación falló para 'https://github.com/silvia-upct-es/fc-alumno.git/'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ nano .pat
+[?2004l[?2004h[?1049h[22;0;0t[1;48r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[46;95H(B[0;7m[ Leyendo... ](B[m[46;94H(B[0;7m[ 1 línea leída ](B[m[H(B[0;7m  GNU nano 6.2                                                                                        .pat                                                                                                 [1;202H(B[m[47d(B[0;7m^G(B[m Ayuda[47;17H(B[0;7m^O(B[m Guardar[33G(B[0;7m^W(B[m Buscar[49G(B[0;7m^K(B[m Cortar[65G(B[0;7m^T(B[m Ejecutar     (B[0;7m^C(B[m Ubicación    (B[0;7mM-U(B[m Deshacer    (B[0;7mM-A(B[m Poner marca (B[0;7mM-](B[m A llave     (B[0;7mM-Q(B[m Anterior    (B[0;7m^B(B[m Atrás[47;177H(B[0;7m^◂(B[m Palabr ant[48d(B[0;7m^X(B[m Salir[48;17H(B[0;7m^R(B[m Leer fich.   (B[0;7m^\(B[m Reemplazar   (B[0;7m^U(B[m Pegar[48;65H(B[0;7m^J(B[m Justificar   (B[0;7m^/(B[m Ir a línea   (B[0;7mM-E(B[m Rehacer     (B[0;7mM-6(B[m Copiar[129G(B[0;7m^Q(B[m Buscar atrás (B[0;7mM-W(B[m Siguiente   (B[0;7m^F(B[m Adelante     (B[0;7m^▸(B[m Palabra Siguiente[2d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[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hg[?25l[?12l[?25hh[?25l[?12l[?25hp[?25l[?12l[?25h_[?25l[?12l[?25hW[?25l[?12l[?25ho[?25l[?12l[?25ha[?25l[?12l[?25hP[?25l[?12l[?25hq[?25l[?12l[?25hW[?25l[?12l[?25hG[?25l[?12l[?25hL[?25l[46d[K[?12l[?25h[2;14H[?25l[?12l[?25hQ[?25l[?12l[?25h5[?25l[?12l[?25hj[?25l[?12l[?25hH[?25l[?12l[?25hW[?25l[?12l[?25hE[?25l[?12l[?25hO[?25l[?12l[?25hs[?25l[?12l[?25h0[?25l[?12l[?25h3[?25l[?12l[?25hN[?25l[?12l[?25hE[?25l[?12l[?25hy[?25l[?12l[?25hU[?25l[?12l[?25hK[?25l[?12l[?25hN[?25l[?12l[?25hT[?25l[?12l[?25hZ[?25l[?12l[?25ho[?25l[?12l[?25hg[?25l[?12l[?25hq[?25l[?12l[?25h3[?25l[?12l[?25hm[?25l[?12l[?25hI[?25l[?12l[?25hv[?25l[?12l[?25h1[?25l[?12l[?25hH[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[2;41H[?25l[1;108H(B[0;7m*[202G(B[m[?12l[?25h[2;40H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l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[?12l[?25h[?25l[47;17H          [33G         [49G  (B[0;7mM-D(B[m Formato DOS[35X[47;101H(B[0;7mM-A(B[m Añadir[40X[47;151H(B[0;7mM-B(B[m Respaldar fichero[K[48;2H(B[0;7mC(B[m Cancelar[39X[48;51H(B[0;7mM-M(B[m Formato Mac[35X[48;101H(B[0;7mM-P(B[m Anteponer         [129G[22X[48;151H(B[0;7m^T(B[m Navegar[K[46d(B[0;7mNombre del archivo a escribir: .pat                                                                                                                                                                        [46;36H(B[m[?12l[?25h[?25l[46;92H[1K (B[0;7m[ Escribiendo... ](B[m[K[1;108H(B[0;7m [202G(B[m[46;95H(B[0;7m1 línea escrita ](B[m[47;17H(B[0;7m^O(B[m Guardar[33G(B[0;7m^W(B[m Buscar[49G(B[0;7m^K(B[m Cortar       (B[0;7m^T(B[m Ejecutar     (B[0;7m^C(B[m Ubicación    (B[0;7mM-U(B[m Deshacer    (B[0;7mM-A(B[m Poner marca (B[0;7mM-](B[m A llave     (B[0;7mM-Q(B[m Anterior    (B[0;7m^B(B[m Atrás        (B[0;7m^◂(B[m Palabr ant[48;2H(B[0;7mX(B[m Salir        (B[0;7m^R(B[m Leer fich.   (B[0;7m^\(B[m Reemplazar   (B[0;7m^U(B[m Pegar        (B[0;7m^J(B[m Justificar   (B[0;7m^/(B[m Ir a línea   (B[0;7mM-E(B[m Rehacer     (B[0;7mM-6(B[m Copiar[129G(B[0;7m^Q(B[m Buscar atrás (B[0;7mM-W(B[m Siguiente   (B[0;7m^F(B[m Adelante     (B[0;7m^▸(B[m Palabra Siguiente[?12l[?25h[2;41H[?25l[46d[J[48d[?12l[?25h[48;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ nano .patgit clone https://github.com/silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': https://github.com/silvia-upct-es/fc-alumno.git
+Password for 'https://https://github.com/silvia-upct-es/fc-alumno.git@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Autenticación falló para 'https://github.com/silvia-upct-es/fc-alumno.git/'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git clone [7mhttps://github.com/silvia-upct-es/fc-alumno.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/silvia-upct-es/fc-alumno.git
+[?2004lClonando en 'fc-alumno'...
+Username for 'https://github.com': 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
+Password for 'https://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@github.com': 
+warning: Pareces haber clonado un repositorio sin contenido.
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls .git
+[?2004lls: no se puede acceder a '.git': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ fc-alunmo
+[?2004lfc-alunmo: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mDescargas[0m    [01;34mEscritorio[0m   [01;34mfc-alumno[0m   [01;34mmateriales-prac3[0m       [01;34mMúsica[0m       practica3-sol.txt      [01;34mPúblico[0m   typescript          [01;34mVídeos[0m
+ [01;34mDocumentos[0m   [01;34mFC[0m           [01;34mImágenes[0m    [01;31mmateriales-prac3.rar[0m   [01;34mPlantillas[0m  'practica3-sol.txt *'   [01;34msnap[0m      typescript-pract2
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ fc- [Kalumno
+[?2004lfc-alumno: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mDescargas[0m    [01;34mEscritorio[0m   [01;34mfc-alumno[0m   [01;34mmateriales-prac3[0m       [01;34mMúsica[0m       practica3-sol.txt      [01;34mPúblico[0m   typescript          [01;34mVídeos[0m
+ [01;34mDocumentos[0m   [01;34mFC[0m           [01;34mImágenes[0m    [01;31mmateriales-prac3.rar[0m   [01;34mPlantillas[0m  'practica3-sol.txt *'   [01;34msnap[0m      typescript-pract2
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ .git
+[?2004lOrden «.git» no encontrada. Quizá quiso decir:
+  la orden «dgit» del paquete deb «dgit (9.15)»
+  la orden «jgit» del paquete deb «jgit-cli (4.11.9-1)»
+  la orden «git» del paquete deb «git (1:2.34.1-1ubuntu1.4)»
+  la orden «qgit» del paquete deb «qgit (2.10-2)»
+Pruebe con: sudo apt install <nombre del paquete deb>
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ 'fc-alumno'
+[?2004lfc-alumno: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mls .git[27mls .git
+[?2004lls: no se puede acceder a '.git': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ cat .git/ci[Konif[K[Kfig
+[?2004lcat: .git/config: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mDescargas[0m    [01;34mEscritorio[0m   [01;34mfc-alumno[0m   [01;34mmateriales-prac3[0m       [01;34mMúsica[0m       practica3-sol.txt      [01;34mPúblico[0m   typescript          [01;34mVídeos[0m
+ [01;34mDocumentos[0m   [01;34mFC[0m           [01;34mImágenes[0m    [01;31mmateriales-prac3.rar[0m   [01;34mPlantillas[0m  'practica3-sol.txt *'   [01;34msnap[0m      typescript-pract2
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ fc.[K-alumno
+[?2004lfc-alumno: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ s[Kls/fc-alumno
+[?2004lbash: ls/fc-alumno: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mfc-alumno[27mfc-alumno
+[?2004lfc-alumno: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ s[Kls
+[?2004l [0m[01;34mDescargas[0m    [01;34mEscritorio[0m   [01;34mfc-alumno[0m   [01;34mmateriales-prac3[0m       [01;34mMúsica[0m       practica3-sol.txt      [01;34mPúblico[0m   typescript          [01;34mVídeos[0m
+ [01;34mDocumentos[0m   [01;34mFC[0m           [01;34mImágenes[0m    [01;31mmateriales-prac3.rar[0m   [01;34mPlantillas[0m  'practica3-sol.txt *'   [01;34msnap[0m      typescript-pract2
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ fc-alumno
+[?2004lfc-alumno: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ cd
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ /home/usuario
+[?2004lbash: /home/usuario: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ /home /usuario
+[?2004lbash: /home: Es un directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ h[K/home
+[?2004lbash: /home: Es un directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ /usuario
+[?2004lbash: /usuario: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mDescargas[0m    [01;34mEscritorio[0m   [01;34mfc-alumno[0m   [01;34mmateriales-prac3[0m       [01;34mMúsica[0m       practica3-sol.txt      [01;34mPúblico[0m   typescript          [01;34mVídeos[0m
+ [01;34mDocumentos[0m   [01;34mFC[0m           [01;34mImágenes[0m    [01;31mmateriales-prac3.rar[0m   [01;34mPlantillas[0m  'practica3-sol.txt *'   [01;34msnap[0m      typescript-pract2
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ escritoio
+[?2004lescritoio: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ escritorio
+[?2004lescritorio: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ /ls
+[?2004lbash: /ls: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mDescargas[0m    [01;34mEscritorio[0m   [01;34mfc-alumno[0m   [01;34mmateriales-prac3[0m       [01;34mMúsica[0m       practica3-sol.txt      [01;34mPúblico[0m   typescript          [01;34mVídeos[0m
+ [01;34mDocumentos[0m   [01;34mFC[0m           [01;34mImágenes[0m    [01;31mmateriales-prac3.rar[0m   [01;34mPlantillas[0m  'practica3-sol.txt *'   [01;34msnap[0m      typescript-pract2
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ cd
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mDescargas[0m    [01;34mEscritorio[0m   [01;34mfc-alumno[0m   [01;34mmateriales-prac3[0m       [01;34mMúsica[0m       practica3-sol.txt      [01;34mPúblico[0m   typescript          [01;34mVídeos[0m
+ [01;34mDocumentos[0m   [01;34mFC[0m           [01;34mImágenes[0m    [01;31mmateriales-prac3.rar[0m   [01;34mPlantillas[0m  'practica3-sol.txt *'   [01;34msnap[0m      typescript-pract2
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls [K /fc-alumno
+[?2004lls: no se puede acceder a '/fc-alumno': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls fc-alumno
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls .git
+[?2004lls: no se puede acceder a '.git': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mDescargas[0m    [01;34mEscritorio[0m   [01;34mfc-alumno[0m   [01;34mmateriales-prac3[0m       [01;34mMúsica[0m       practica3-sol.txt      [01;34mPúblico[0m   typescript          [01;34mVídeos[0m
+ [01;34mDocumentos[0m   [01;34mFC[0m           [01;34mImágenes[0m    [01;31mmateriales-prac3.rar[0m   [01;34mPlantillas[0m  'practica3-sol.txt *'   [01;34msnap[0m      typescript-pract2
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls fc-alumno
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mDescargas[0m    [01;34mEscritorio[0m   [01;34mfc-alumno[0m   [01;34mmateriales-prac3[0m       [01;34mMúsica[0m       practica3-sol.txt      [01;34mPúblico[0m   typescript          [01;34mVídeos[0m
+ [01;34mDocumentos[0m   [01;34mFC[0m           [01;34mImágenes[0m    [01;31mmateriales-prac3.rar[0m   [01;34mPlantillas[0m  'practica3-sol.txt *'   [01;34msnap[0m      typescript-pract2
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls fc-alumno 
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls .go[Kit
+[?2004lls: no se puede acceder a '.git': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mecho -e "# FC\n\n- Alumno Apellido" > README.md[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e "# FC\n\n- Alumno Apellido" > README.md
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mecho -e "# FC\n\n- Alumno Apellido" > README.md[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e "# FC\n\n- Alumno Apellido" > README.mdSilvia[K[K[K[K[K[K[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@S[1@i[1@l[1@v[1@i[1@a[1@ [1@A[1@l[1@a[1@c[1@i[1@d
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mDescargas[0m    [01;34mEscritorio[0m   [01;34mfc-alumno[0m   [01;34mmateriales-prac3[0m       [01;34mMúsica[0m       practica3-sol.txt      [01;34mPúblico[0m     [01;34msnap[0m         typescript-pract2
+ [01;34mDocumentos[0m   [01;34mFC[0m           [01;34mImágenes[0m    [01;31mmateriales-prac3.rar[0m   [01;34mPlantillas[0m  'practica3-sol.txt *'   README.md   typescript   [01;34mVídeos[0m
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls f-cçççç[K[K[K[K[K[Kc-alumno
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mgit add README.md[27mgit add README.md
+[?2004lfatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ cd fc-alumno
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ ls .git
+[?2004l[0m[01;34mbranches[0m  config  description  HEAD  [01;34mhooks[0m  [01;34minfo[0m  [01;34mobjects[0m  [01;34mrefs[0m
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mcat .git/config[27mcat .git/config
+[?2004l[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/silvia-upct-es/fc-alumno.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mgit add README.md[27mgit add README.md
+[?2004lfatal: ruta especificada 'README.md' no concordó con ningún archivo
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ ls
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ cd
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mgit add README.md[27mgit add README.md
+[?2004lfatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ git add README.mdcd[Klsgit add README.md[2Pcat .git/config[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd fc-alumno
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mecho -e "# FC\n\n- Alumno Apellido" > README.md[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e "# FC\n\n- Alumno Apellido" > README.md
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mecho -e "# FC\n\n- Alumno Apellido" > README.md[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e "# FC\n\n- Alumno Apellido" > README.md[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@S[1@I[1P[1@i[1@l[1@v[1@i[1@a[1@ [1@A[1@l[1@a[1@c[1@i[1@d[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mgit add README.md[27mgit add README.md
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mgit commit -m "Creación de README.md"[27mgit commit -m "Creación de README.md"
+[?2004l[main (commit-raíz) 2707892] Creación de README.md
+ 1 file changed, 3 insertions(+)
+ create mode 100644 README.md
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mgit push --set-upstream origin main[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push --set-upstream origin main
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lUsername for 'https://github.com': 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
+Password for 'https://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@github.com': 
+Enumerando objetos: 3, listo.
+Contando objetos:  33% (1/3)Contando objetos:  66% (2/3)Contando objetos: 100% (3/3)Contando objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 256 bytes | 256.00 KiB/s, listo.
+Total 3 (delta 0), reusados 0 (delta 0), pack-reusados 0
+To https://github.com/silvia-upct-es/fc-alumno.git
+ * [new branch]      main -> main
+Rama 'main' configurada para hacer seguimiento a la rama remota 'main' de 'origin'.
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ nano .README.md
+[?2004l[?2004h[?1049h[22;0;0t[1;48r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[46;94H(B[0;7m[ Archivo nuevo ](B[m[H(B[0;7m  GNU nano 6.2                                                                                     .README.md                                                                                              [1;202H(B[m[47d(B[0;7m^G(B[m Ayuda[47;17H(B[0;7m^O(B[m Guardar[33G(B[0;7m^W(B[m Buscar[49G(B[0;7m^K(B[m Cortar[65G(B[0;7m^T(B[m Ejecutar     (B[0;7m^C(B[m Ubicación    (B[0;7mM-U(B[m Deshacer    (B[0;7mM-A(B[m Poner marca (B[0;7mM-](B[m A llave     (B[0;7mM-Q(B[m Anterior    (B[0;7m^B(B[m Atrás[47;177H(B[0;7m^◂(B[m Palabr ant[48d(B[0;7m^X(B[m Salir[48;17H(B[0;7m^R(B[m Leer fich.   (B[0;7m^\(B[m Reemplazar   (B[0;7m^U(B[m Pegar[48;65H(B[0;7m^J(B[m Justificar   (B[0;7m^/(B[m Ir a línea   (B[0;7mM-E(B[m Rehacer     (B[0;7mM-6(B[m Copiar[129G(B[0;7m^Q(B[m Buscar atrás (B[0;7mM-W(B[m Siguiente   (B[0;7m^F(B[m Adelante     (B[0;7m^▸(B[m Palabra Siguiente[2d[?12l[?25h[?25l[1;111H(B[0;7m*[202G(B[m[?12l[?25h[2dS[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25hv[?25l[?12l[?25hi[?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25hA[?25l[?12l[?25hl[?25l[?12l[?25ha[?25l[?12l[?25hc[?25l[?12l[?25hi[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25hB[?25l[?12l[?25ha[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25h [?25l[46d[K[?12l[?25h[2;16Hr[?25l[?12l[?25ha[?25l[?12l[?25ho[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h Brao[K[13G[?25l[?12l[?25h Brao[K[12G[?25l[?12l[?25h Brao[K[11G[?25l[?12l[?25h Brao[K[10G[?25l[?12l[?25h Brao[K[9G[?25l[?12l[?25h Brao[K[8G[?25l[?12l[?25h Brao[K[7G[?25l[?12l[?25h Brao[K[6G[?25l[?12l[?25h Brao[K[5G[?25l[?12l[?25h Brao[KSil[?25l[?12l[?25h Brao[KSi[?25l[?12l[?25h Brao[KS[?25l[?12l[?25h Brao[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hS BraoS[?25l[?12l[?25hi BraoSi[?25l[?12l[?25hl BraoSil[?25l[?12l[?25hv Brao[5G[?25l[?12l[?25hi Brao[6G[?25l[?12l[?25ha Brao[7G[?25l[?12l[?25h  Brao[8G[?25l[?12l[?25hA Brao[9G[?25l[?12l[?25hl Brao[10G[?25l[?12l[?25ha Brao[11G[?25l[?12l[?25hc Brao[12G[?25l[?12l[?25hi Brao[13G[?25l[?12l[?25hd Brao[14G[?25l[?12l[?25h  Brao[15G[?25l[?12l[?25h Brao[K[14G[?25l[47;17H          [33G         [49G  (B[0;7mM-D(B[m Formato DOS[35X[47;101H(B[0;7mM-A(B[m Añadir[40X[47;151H(B[0;7mM-B(B[m Respaldar fichero[K[48;2H(B[0;7mC(B[m Cancelar[39X[48;51H(B[0;7mM-M(B[m Formato Mac[35X[48;101H(B[0;7mM-P(B[m Anteponer         [129G[22X[48;151H(B[0;7m^T(B[m Navegar[K[46d(B[0;7mNombre del archivo a escribir: .README.md                                                                                                                                                                  [46;42H(B[m[?12l[?25h[?25l[46;92H[1K (B[0;7m[ Escribiendo... ](B[m[K[1;111H(B[0;7m [202G(B[m[46;95H(B[0;7m1 línea escrita ](B[m[47;17H(B[0;7m^O(B[m Guardar[33G(B[0;7m^W(B[m Buscar[49G(B[0;7m^K(B[m Cortar       (B[0;7m^T(B[m Ejecutar     (B[0;7m^C(B[m Ubicación    (B[0;7mM-U(B[m Deshacer    (B[0;7mM-A(B[m Poner marca (B[0;7mM-](B[m A llave     (B[0;7mM-Q(B[m Anterior    (B[0;7m^B(B[m Atrás        (B[0;7m^◂(B[m Palabr ant[48;2H(B[0;7mX(B[m Salir        (B[0;7m^R(B[m Leer fich.   (B[0;7m^\(B[m Reemplazar   (B[0;7m^U(B[m Pegar        (B[0;7m^J(B[m Justificar   (B[0;7m^/(B[m Ir a línea   (B[0;7mM-E(B[m Rehacer     (B[0;7mM-6(B[m Copiar[129G(B[0;7m^Q(B[m Buscar atrás (B[0;7mM-W(B[m Siguiente   (B[0;7m^F(B[m Adelante     (B[0;7m^▸(B[m Palabra Siguiente[?12l[?25h[2;14H[?25l[46d[J[48d[?12l[?25h[48;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ git status
+[?2004lEn la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	[31mmodificados:     README.md[m
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	[31m.README.md[m
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ git diff
+[?2004l[?1h=[1mdiff --git a/README.md b/README.md[m[m
+[1mindex b1d4c5f..461760c 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -1,3 +1,3 @@[m[m
+ # FC[m[m
+ [m[m
+[31m-- Silvia Alacid[m[m
+[32m+[m[32m- Silvia Alacid Brao[m[m
+[K[?1l>[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mtouch hello.txt[27mtouch hello.txt
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ git status
+[?2004lEn la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	[31mmodificados:     README.md[m
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	[31m.README.md[m
+	[31mhello.txt[m
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mgit add -A[27mgit add -A
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ git status
+[?2004lEn la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	[32mnuevos archivos: .README.md[m
+	[32mmodificados:     README.md[m
+	[32mnuevos archivos: hello.txt[m
+
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mgit (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	[32mnuevos archivos: .README.md[m
+	[32mmodificados:     README.md[m
+	[32mnuevos archivos: hello.txt[m
+
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mgit restore --staged hello.txt[27mgit restore --staged hello.txt
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ git status
+[?2004lEn la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	[32mnuevos archivos: .README.md[m
+	[32mmodificados:     README.md[m
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	[31mhello.txt[m
+
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mgit clean -n[27mgit clean -n
+[?2004lSerá borrado hello.txt
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mgit clean -f[27mgit clean -f
+[?2004lBorrando hello.txt
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ git status
+[?2004lEn la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	[32mnuevos archivos: .README.md[m
+	[32mmodificados:     README.md[m
+
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mgit commit -m "README modificado con segundo apellido"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "README modificado con segundo apellido"
+[?2004l[main d766f95] README modificado con segundo apellido
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 .README.md
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7m git push origin main[27m git push origin main
+[?2004lUsername for 'https://github.com': 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
+Password for 'https://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@github.com': 
+Enumerando objetos: 6, listo.
+Contando objetos:  16% (1/6)Contando objetos:  33% (2/6)Contando objetos:  50% (3/6)Contando objetos:  66% (4/6)Contando objetos:  83% (5/6)Contando objetos: 100% (6/6)Contando objetos: 100% (6/6), listo.
+Comprimiendo objetos:  50% (1/2)Comprimiendo objetos: 100% (2/2)Comprimiendo objetos: 100% (2/2), listo.
+Escribiendo objetos:  25% (1/4)Escribiendo objetos:  50% (2/4)Escribiendo objetos:  75% (3/4)Escribiendo objetos: 100% (4/4)Escribiendo objetos: 100% (4/4), 354 bytes | 354.00 KiB/s, listo.
+Total 4 (delta 0), reusados 0 (delta 0), pack-reusados 0
+To https://github.com/silvia-upct-es/fc-alumno.git
+   2707892..d766f95  main -> main
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mtypescript-pract2[27mtypescript-pract2 mv cd
+[?2004ltypescript-pract2: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mtypescript-pract2[27mtypescript-pract2 
+[?2004ltypescript-pract2: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ cd
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mDescargas[0m    [01;34mEscritorio[0m   [01;34mfc-alumno[0m   [01;34mmateriales-prac3[0m       [01;34mMúsica[0m       practica3-sol.txt      [01;34mPúblico[0m   typescript          [01;34mVídeos[0m
+ [01;34mDocumentos[0m   [01;34mFC[0m           [01;34mImágenes[0m    [01;31mmateriales-prac3.rar[0m   [01;34mPlantillas[0m  'practica3-sol.txt *'   [01;34msnap[0m      typescript-pract2
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ cd
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mtypescript-prac2[27mtypescript-prac2gtypescript-prac2itypescript-prac2[Ctypescript-prac2 typescript-prac2atypescript-prac2dtypescript-prac2dtypescript-prac2 typescript-prac2
+[?2004lfatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ cd fc-alumno
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ git add [7mtypescript-prac2[27mtypescript-prac2
+[?2004lfatal: ruta especificada 'typescript-prac2' no concordó con ningún archivo
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ [7mtypescript-prac2[27mtypescript-prac2 mv fc-alumno
+[?2004ltypescript-prac2: orden no encontrada
+[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ git add [7mtypescript-prac2[27mtypescript-prac2
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/fc-alumno[00m$ git commit [7mtypescript-prac2[27mtypescript-prac2
+[?2004layuda: Esperando que tu editor cierre el archivo ... [?2004h[?1049h[22;0;0t[1;48r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[46;95H(B[0;7m[ Leyendo... ](B[m[46;92H(B[0;7m[ 11 líneas leídas ](B[m[H(B[0;7m  GNU nano 6.2                                                                     /home/alumno/fc-alumno/.git/COMMIT_EDITMSG                                                                              [1;202H(B[m[47d(B[0;7m^G(B[m Ayuda[47;17H(B[0;7m^O(B[m Guardar[33G(B[0;7m^W(B[m Buscar[49G(B[0;7m^K(B[m Cortar[65G(B[0;7m^T(B[m Ejecutar     (B[0;7m^C(B[m Ubicación    (B[0;7mM-U(B[m Deshacer    (B[0;7mM-A(B[m Poner marca (B[0;7mM-](B[m A llave     (B[0;7mM-Q(B[m Anterior    (B[0;7m^B(B[m Atrás[47;177H(B[0;7m^◂(B[m Palabr ant[48d(B[0;7m^X(B[m Salir[48;17H(B[0;7m^R(B[m Leer fich.   (B[0;7m^\(B[m Reemplazar   (B[0;7m^U(B[m Pegar[48;65H(B[0;7m^J(B[m Justificar   (B[0;7m^/(B[m Ir a línea   (B[0;7mM-E(B[m Rehacer     (B[0;7mM-6(B[m Copiar[129G(B[0;7m^Q(B[m Buscar atrás (B[0;7mM-W(B[m Siguiente   (B[0;7m^F(B[m Adelante     (B[0;7m^▸(B[m Palabra Siguiente[3d[36m# Por favor ingresa el mensaje del commit para tus cambios. Las[4d#  líneas que comiencen con '#' serán ignoradas, y un mensaje[5d#  vacío aborta el commit.[6d#[7d# En la rama main[8d# Tu rama está actualizada con 'origin/main'.[9d#[10d# Cambios a ser confirmados:[11d#[38;5;208m       [36mnuevos archivos: typescript-prac2[12d#[2d[39m(B[m[?12l[?25h[?25l[47;17H          [33G         [49G  (B[0;7mM-D(B[m Formato DOS[35X[47;101H(B[0;7mM-A(B[m Añadir[40X[47;151H(B[0;7mM-B(B[m Respaldar fichero[K[48;2H(B[0;7mC(B[m Cancelar[39X[48;51H(B[0;7mM-M(B[m Formato Mac[35X[48;101H(B[0;7mM-P(B[m Anteponer         [129G[22X[48;151H(B[0;7m^T(B[m Navegar[K[46d(B[0;7mNombre del archivo a escribir: /home/alumno/fc-alumno/.git/COMMIT_EDITMSG                                                                                      
